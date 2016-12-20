@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" value="ArtIK0Z" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<title>Xapogs - Main</title>			
+		
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<!--[if lt IE 9]>
+			<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+		<![endif]-->
+		<!--[if gte IE 9]>
+		  <style type="text/css">
+			.gradient {
+			   filter: none;
+			}
+		  </style>
+		<![endif]-->
+		<script type="text/javascript" src="scripts/jquery.min.js"></script>
+		<script type="text/javascript" src="scripts/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="scripts/jquery.mousewheel.min.js"></script>
+		
+		<link href="styles/styles.css" type="text/css" rel="stylesheet" />
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+		<link rel="icon" type="image/x-icon" href="favicon.ico" />
+	</head>
+	<body>
+		<div id="wrap">
+			<header>
+				<table>
+					<tr>
+						<td id="menu_but"><a href="#"><img src="images/menu.png" alt="menu" /></a></td>
+						<td id="logo"><a href="#"><img src="images/logo_big.png" alt="logo" /></a></td>
+						<td id="search">
+							<form name="search" method="get">
+								<input type="search" name="search" placeholder="Search..." />
+								<button type="submit"><img src="images/search.png" alt="search" /></button>
+							</form>
+						</td>
+						<td id="profile_block">
+							<a href="#"><img src="images/avatar.png" alt="Artik" /> <span>Artik Travkovs</span></a>
+						</td>
+						<td id="logout">
+							<a href="#"><img src="images/logout.png" alt="logout" /><br /><span>Logout</span></a>
+						</td>
+					</tr>
+				</table>
+			</header>
+			<div id="main">
+				<div id="lmenu">
+					<div id="slinks" class="lb_links">
+						<ul>
+							<li><a href="#"><i class="material-icons">&#xE7FD;</i><span>Profile</span></a></li>
+							<li><a href="#"><i class="material-icons">&#xE8EE;</i><span>News</span></a></li>
+							<li><a href="#"><i class="material-icons">&#xE0D8;</i><span>Messages</span></a></li>
+							<li><a href="#"><i class="material-icons">&#xE3B0;</i><span>Photos</span></a></li>
+							<li><a href="#"><i class="material-icons">&#xE7FB;</i><span>Friends</span></a></li>
+							<li><a href="#"><i class="material-icons">&#xE150;</i><span>Subscribes</span></a></li>
+						</ul>
+					</div>
+					<hr class="leftline" />
+					<div class="lb_links lblock">
+						<a href="#">Friends</a>
+						<ul>
+							<li><a href="#"><img src="images/avatar.png" alt="s3mk0" /><span>S3mk0</span></a></li>
+							<li><a href="#"><img src="images/avatar.png" alt="B4n4n4_L0rD" /><span>B4n4n4_L0rD</span></a></li>
+							<li><a href="#"><img src="images/avatar.png" alt="RedNeko 猫 | cases2x.com" /><span>RedNeko 猫 | cases2x.com</span></a></li>
+						</ul>
+					</div>
+					<hr class="leftline" />
+					<div class="lb_links lblock">
+						<a href="#">Subscribes</a>
+						<ul>
+							<li><a href="#"><img src="images/group_ava.png" alt="Anime" /><span>Anime</span></a></li>
+							<li><a href="#"><img src="images/group_ava.png" alt="Programming" /><span>Programming</span></a></li>
+							<li><a href="#"><img src="images/group_ava.png" alt="ReligiouZZZ" /><span>ReligiouZZZ</span></a></li>
+						</ul>
+					</div>
+					<hr class="leftline" />
+					<footer>
+						<a href="#">API</a>
+						<a href="#">License</a>
+						<a href="#">About</a>
+						<a href="#">Language</a>
+					</footer>
+				</div>
+				<div id="wrapper">
+					<div id="page">
+						<div id="chat">
+							<table>
+								<tr>
+									<td id="chat_companion">
+										<div>
+												<div class="scroll_wrapper"><div class="scroll"></div></div>
+												<div id="chat_cont">
+												
+													<div class="cont_row" id="selected_cont">
+														<table>
+															<tr>
+																<td rowspan=2><img src="images/avatar.png" /></td>
+																<td class="cont_name">Name Surname<span>8 nov</span></td>
+															</tr>
+															<tr>
+																<td class="last_message"><img src="images/group_ava.png" /><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam justo massa, vehicula id ligula ac.</span></td>
+															</tr>
+														</table>
+													</div>
+													<div class="cont_row">
+														<table>
+															<tr>
+																<td rowspan=2><img src="images/avatar.png" /></td>
+																<td class="cont_name">Name Surname<span>8 nov</span></td>
+															</tr>
+															<tr>
+																<td class="last_message"><img src="images/group_ava.png" /><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam justo massa, vehicula id ligula ac.</span></td>
+															</tr>
+														</table>
+													</div>
+													<div class="cont_row">
+														<table>
+															<tr>
+																<td rowspan=2><img src="images/avatar.png" /></td>
+																<td class="cont_name">Name Surname<span>8 nov</span></td>
+															</tr>
+															<tr>
+																<td class="last_message"><img src="images/group_ava.png" /><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam justo massa, vehicula id ligula ac.</span></td>
+															</tr>
+														</table>
+													</div>
+													<div class="cont_row">
+														<table>
+															<tr>
+																<td rowspan=2><img src="images/avatar.png" /></td>
+																<td class="cont_name">Name Surname<span>8 nov</span></td>
+															</tr>
+															<tr>
+																<td class="last_message"><img src="images/group_ava.png" /><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam justo massa, vehicula id ligula ac.</span></td>
+															</tr>
+														</table>
+													</div>
+													<div class="cont_row">
+														<table>
+															<tr>
+																<td rowspan=2><img src="images/avatar.png" /></td>
+																<td class="cont_name">Name Surname<span>8 nov</span></td>
+															</tr>
+															<tr>
+																<td class="last_message"><img src="images/group_ava.png" /><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam justo massa, vehicula id ligula ac.</span></td>
+															</tr>
+														</table>
+													</div>
+													<div class="cont_row">
+														<table>
+															<tr>
+																<td rowspan=2><img src="images/avatar.png" /></td>
+																<td class="cont_name">Name Surname<span>8 nov</span></td>
+															</tr>
+															<tr>
+																<td class="last_message"><img src="images/group_ava.png" /><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam justo massa, vehicula id ligula ac.</span></td>
+															</tr>
+														</table>
+													</div>
+													<div class="cont_row">
+														<table>
+															<tr>
+																<td rowspan=2><img src="images/avatar.png" /></td>
+																<td class="cont_name">Name Surname<span>8 nov</span></td>
+															</tr>
+															<tr>
+																<td class="last_message"><img src="images/group_ava.png" /><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam justo massa, vehicula id ligula ac.</span></td>
+															</tr>
+														</table>
+													</div>
+													<div class="cont_row">
+														<table>
+															<tr>
+																<td rowspan=2><img src="images/avatar.png" /></td>
+																<td class="cont_name">Name Surname<span>8 nov</span></td>
+															</tr>
+															<tr>
+																<td class="last_message"><img src="images/group_ava.png" /><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam justo massa, vehicula id ligula ac.</span></td>
+															</tr>
+														</table>
+													</div>
+													<div class="cont_row">
+														<table>
+															<tr>
+																<td rowspan=2><img src="images/avatar.png" /></td>
+																<td class="cont_name">Name Surname<span>8 nov</span></td>
+															</tr>
+															<tr>
+																<td class="last_message"><img src="images/group_ava.png" /><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam justo massa, vehicula id ligula ac.</span></td>
+															</tr>
+														</table>
+													</div>
+													<div class="cont_row">
+														<table>
+															<tr>
+																<td rowspan=2><img src="images/avatar.png" /></td>
+																<td class="cont_name">Name Surname<span>8 nov</span></td>
+															</tr>
+															<tr>
+																<td class="last_message"><img src="images/group_ava.png" /><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam justo massa, vehicula id ligula ac.</span></td>
+															</tr>
+														</table>
+													</div>
+													<div class="cont_row">
+														<table>
+															<tr>
+																<td rowspan=2><img src="images/avatar.png" /></td>
+																<td class="cont_name">Name Surname<span>8 nov</span></td>
+															</tr>
+															<tr>
+																<td class="last_message"><img src="images/group_ava.png" /><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam justo massa, vehicula id ligula ac.</span></td>
+															</tr>
+														</table>
+													</div>
+													<div class="cont_row">
+														<table>
+															<tr>
+																<td rowspan=2><img src="images/avatar.png" /></td>
+																<td class="cont_name">Name Surname<span>8 nov</span></td>
+															</tr>
+															<tr>
+																<td class="last_message"><img src="images/group_ava.png" /><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam justo massa, vehicula id ligula ac.</span></td>
+															</tr>
+														</table>
+													</div>
+													<div class="cont_row">
+														<table>
+															<tr>
+																<td rowspan=2><img src="images/avatar.png" /></td>
+																<td class="cont_name">Name Surname<span>8 nov</span></td>
+															</tr>
+															<tr>
+																<td class="last_message"><img src="images/group_ava.png" /><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam justo massa, vehicula id ligula ac.</span></td>
+															</tr>
+														</table>
+													</div>
+													<div class="cont_row">
+														<table>
+															<tr>
+																<td rowspan=2><img src="images/avatar.png" /></td>
+																<td class="cont_name">Name Surname<span>8 nov</span></td>
+															</tr>
+															<tr>
+																<td class="last_message"><img src="images/group_ava.png" /><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam justo massa, vehicula id ligula ac.</span></td>
+															</tr>
+														</table>
+													</div>
+													<div class="cont_row">
+														<table>
+															<tr>
+																<td rowspan=2><img src="images/avatar.png" /></td>
+																<td class="cont_name">Name Surname<span>8 nov</span></td>
+															</tr>
+															<tr>
+																<td class="last_message"><img src="images/group_ava.png" /><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam justo massa, vehicula id ligula ac.</span></td>
+															</tr>
+														</table>
+													</div>
+													<div class="cont_row">
+														<table>
+															<tr>
+																<td rowspan=2><img src="images/avatar.png" /></td>
+																<td class="cont_name">Name Surname<span>8 nov</span></td>
+															</tr>
+															<tr>
+																<td class="last_message"><img src="images/group_ava.png" /><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam justo massa, vehicula id ligula ac.</span></td>
+															</tr>
+														</table>
+													</div>
+													<div class="cont_row">
+														<table>
+															<tr>
+																<td rowspan=2><img src="images/avatar.png" /></td>
+																<td class="cont_name">Name Surname<span>8 nov</span></td>
+															</tr>
+															<tr>
+																<td class="last_message"><img src="images/group_ava.png" /><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam justo massa, vehicula id ligula ac.</span></td>
+															</tr>
+														</table>
+													</div>
+													<div class="cont_row">
+														<table>
+															<tr>
+																<td rowspan=2><img src="images/avatar.png" /></td>
+																<td class="cont_name">Name Surname<span>8 nov</span></td>
+															</tr>
+															<tr>
+																<td class="last_message"><img src="images/group_ava.png" /><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam justo massa, vehicula id ligula ac.</span></td>
+															</tr>
+														</table>
+													</div>
+													<div class="cont_row">
+														<table>
+															<tr>
+																<td rowspan=2><img src="images/avatar.png" /></td>
+																<td class="cont_name">Name Surname<span>8 nov</span></td>
+															</tr>
+															<tr>
+																<td class="last_message"><img src="images/group_ava.png" /><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam justo massa, vehicula id ligula ac.</span></td>
+															</tr>
+														</table>
+													</div>
+													<div class="cont_row">
+														<table>
+															<tr>
+																<td rowspan=2><img src="images/avatar.png" /></td>
+																<td class="cont_name">Name Surname<span>8 nov</span></td>
+															</tr>
+															<tr>
+																<td class="last_message"><img src="images/group_ava.png" /><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam justo massa, vehicula id ligula ac.</span></td>
+															</tr>
+														</table>
+													</div>
+													<div class="cont_row">
+														<table>
+															<tr>
+																<td rowspan=2><img src="images/avatar.png" /></td>
+																<td class="cont_name">Name Surname<span>8 nov</span></td>
+															</tr>
+															<tr>
+																<td class="last_message"><img src="images/group_ava.png" /><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam justo massa, vehicula id ligula ac.</span></td>
+															</tr>
+														</table>
+													</div>
+													<div class="cont_row">
+														<table>
+															<tr>
+																<td rowspan=2><img src="images/avatar.png" /></td>
+																<td class="cont_name">Name Surname<span>8 nov</span></td>
+															</tr>
+															<tr>
+																<td class="last_message"><img src="images/group_ava.png" /><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam justo massa, vehicula id ligula ac.</span></td>
+															</tr>
+														</table>
+													</div>
+													<div class="cont_row">
+														<table>
+															<tr>
+																<td rowspan=2><img src="images/avatar.png" /></td>
+																<td class="cont_name">Name Surname<span>8 nov</span></td>
+															</tr>
+															<tr>
+																<td class="last_message"><img src="images/group_ava.png" /><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam justo massa, vehicula id ligula ac.</span></td>
+															</tr>
+														</table>
+													</div>
+													<div class="cont_row">
+														<table>
+															<tr>
+																<td rowspan=2><img src="images/avatar.png" /></td>
+																<td class="cont_name">Name Surname<span>8 nov</span></td>
+															</tr>
+															<tr>
+																<td class="last_message"><img src="images/group_ava.png" /><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam justo massa, vehicula id ligula ac.</span></td>
+															</tr>
+														</table>
+													</div>
+												</div>
+										</div>
+									</td>
+									<td id="chat_window">
+										<div>
+											<div class="scroll_wrapper"><div class="scroll"></div></div>
+											<div id="chat_mess">
+												<div class="message_date"><span>18 aug.</span></div>
+												<div class="message_row">
+													<div class="first_row">
+														<table>
+															<tr>
+																<td rowspan=2 class="message_ava"><img src="images/avatar.png" /></td>
+																<td class="mess_init">Artik <span>21:00</span></td>
+															</tr>
+															<tr>
+																<td>
+																	<p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum a augue ut efficitur. Maecenas et magna urna. Sed eleifend rhoncus sapien, non auctor est blandit sed. Maecenas eleifend interdum viverra. Pellentesque dapibus elementum feugiat. Sed turpis risus, eleifend id augue eu, egestas vulputate lacus. Vivamus aliquet dignissim velit faucibus aliquet. Donec et ornare quam. Suspendisse in erat sem. Duis congue erat rhoncus velit sagittis viverra. In a lacus neque. Donec vitae dolor bibendum tortor fringilla feugiat. Vivamus eu pulvinar odio. In nisi nunc, auctor ac magna nec, maximus tempor dolor. Maecenas lacinia commodo purus, eu lobortis massa egestas a.</p>
+
+																	<p align='justify'>Pellentesque eu fermentum ipsum. Sed feugiat eu augue eu consequat. Fusce quam augue, auctor in risus vitae, sollicitudin consectetur orci. Mauris dictum ut orci a faucibus. Aliquam rhoncus, massa ac sollicitudin laoreet, eros diam blandit metus, ut porta elit augue et ex. Sed sed risus in lacus placerat luctus eget et justo. Donec erat ligula, euismod eu turpis et, semper pellentesque nisi. Morbi at urna vitae tortor varius porta vitae eget dolor. Aenean scelerisque nunc id mauris egestas elementum. Nam at lobortis libero. Sed viverra ipsum in euismod tempor. Duis tempor quis ipsum at laoreet. Nullam fringilla vulputate sodales. Vivamus vestibulum iaculis purus a suscipit. Aenean ipsum ex, eleifend sollicitudin vehicula ac, cursus id leo. Proin sed justo molestie, rhoncus lorem vitae, maximus est.</p>
+																</td>
+															</tr>
+														</table>
+													</div>
+													<div class="mess_row"><p align="justify">Pellentesque eu fermentum ipsum. Sed feugiat eu augue eu consequat. Fusce quam augue, auctor in risus vitae, sollicitudin consectetur orci. Mauris dictum ut orci a faucibus. Aliquam rhoncus, massa ac sollicitudin laoreet, eros diam blandit metus, ut porta elit augue et ex. Sed sed risus in lacus placerat luctus eget et justo. Donec erat ligula, euismod eu turpis et, semper pellentesque nisi. Morbi at urna vitae tortor varius porta vitae eget dolor. Aenean scelerisque nunc id mauris egestas elementum. Nam at lobortis libero. Sed viverra ipsum in euismod tempor. Duis tempor quis ipsum at laoreet. Nullam fringilla vulputate sodales. Vivamus vestibulum iaculis purus a suscipit. Aenean ipsum ex, eleifend sollicitudin vehicula ac, cursus id leo. Proin sed justo molestie, rhoncus lorem vitae, maximus est.</p></div>
+												</div>
+												<div class="message_row">
+													<div class="first_row">
+														<table>
+															<tr>
+																<td rowspan=2 class="message_ava"><img src="images/avatar.png" /></td>
+																<td class="mess_init">Artik <span>21:00</span></td>
+															</tr>
+															<tr>
+																<td>
+																	<p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum a augue ut efficitur. Maecenas et magna urna. Sed eleifend rhoncus sapien, non auctor est blandit sed. Maecenas eleifend interdum viverra. Pellentesque dapibus elementum feugiat. Sed turpis risus, eleifend id augue eu, egestas vulputate lacus. Vivamus aliquet dignissim velit faucibus aliquet. Donec et ornare quam. Suspendisse in erat sem. Duis congue erat rhoncus velit sagittis viverra. In a lacus neque. Donec vitae dolor bibendum tortor fringilla feugiat. Vivamus eu pulvinar odio. In nisi nunc, auctor ac magna nec, maximus tempor dolor. Maecenas lacinia commodo purus, eu lobortis massa egestas a.</p>
+
+																	<p align='justify'>Pellentesque eu fermentum ipsum. Sed feugiat eu augue eu consequat. Fusce quam augue, auctor in risus vitae, sollicitudin consectetur orci. Mauris dictum ut orci a faucibus. Aliquam rhoncus, massa ac sollicitudin laoreet, eros diam blandit metus, ut porta elit augue et ex. Sed sed risus in lacus placerat luctus eget et justo. Donec erat ligula, euismod eu turpis et, semper pellentesque nisi. Morbi at urna vitae tortor varius porta vitae eget dolor. Aenean scelerisque nunc id mauris egestas elementum. Nam at lobortis libero. Sed viverra ipsum in euismod tempor. Duis tempor quis ipsum at laoreet. Nullam fringilla vulputate sodales. Vivamus vestibulum iaculis purus a suscipit. Aenean ipsum ex, eleifend sollicitudin vehicula ac, cursus id leo. Proin sed justo molestie, rhoncus lorem vitae, maximus est.</p>
+																</td>
+															</tr>
+														</table>
+													</div>
+													<div class="mess_row"><p align="justify">Pellentesque eu fermentum ipsum. Sed feugiat eu augue eu consequat. Fusce quam augue, auctor in risus vitae, sollicitudin consectetur orci. Mauris dictum ut orci a faucibus. Aliquam rhoncus, massa ac sollicitudin laoreet, eros diam blandit metus, ut porta elit augue et ex. Sed sed risus in lacus placerat luctus eget et justo. Donec erat ligula, euismod eu turpis et, semper pellentesque nisi. Morbi at urna vitae tortor varius porta vitae eget dolor. Aenean scelerisque nunc id mauris egestas elementum. Nam at lobortis libero. Sed viverra ipsum in euismod tempor. Duis tempor quis ipsum at laoreet. Nullam fringilla vulputate sodales. Vivamus vestibulum iaculis purus a suscipit. Aenean ipsum ex, eleifend sollicitudin vehicula ac, cursus id leo. Proin sed justo molestie, rhoncus lorem vitae, maximus est.</p></div>
+												</div>
+											</div>
+											<div id="add_message">
+												<form action="#" method="post">
+													<input type="text" name="message" />
+													<button type="subbmit"><i class="material-icons">&#xE5D9;</i></button>
+												</form>
+											</div>
+										</div>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				resize();
+				resize();
+				$(window).resize(function(){resize();});
+				function resize(){
+					var bodyH = $("body").height();
+					$("#chat").height(bodyH-100);
+					$("#chat_window > div").height(bodyH-105);
+					$("#chat_mess").width($("#chat_window > div").width()-71);
+					$("#chat_companion > div").height(bodyH-105).width($("#chat").width()*0.3);
+					$("#add_message").width($("#chat_window > div").width()+2);
+					$(".last_message").width($('.cont_row').width()-64);
+					$(".last_message span").width($('.cont_row').width()-94);
+					setScroll($("#chat_cont"), $("#chat_companion"), 0, 0, -14);
+					setScroll($("#chat_mess"), $("#chat_window"), 75, 0, -10, true);
+				}
+				function setScroll(content, parent, decrHeight=0, incTop=0, incLeft=0, posBottom=false){
+					var bodyH = $("body").height();
+					content.bind('mousewheel', function(event) {
+						event.preventDefault();
+						var scrollTop = this.scrollTop;
+						this.scrollTop = (scrollTop + ((event.deltaY * event.deltaFactor) * -1.5));
+					});
+					var clas = $("div.scroll");
+					var scrollbar = parent.find(clas);
+					var scWrapper = scrollbar.parent();
+					content.height(bodyH-105-decrHeight);
+					scWrapper.css({height: bodyH-105});
+					content.outerHeight(true);
+					var height = content.outerHeight(true);
+					var sHeight = content[0].scrollHeight;
+					var sbH = height*height/sHeight;
+					var left = content.offset().left + content.outerWidth()+incLeft;
+					var top = content.offset().top+incTop;
+					if(sbH != height){
+						scWrapper.offset({left: left, top: top});
+						scrollbar.css('visibility', 'hidden');
+						var timoutID = 0;
+						scWrapper.mouseover(function(){
+							scrollbar.css('visibility', 'visible');
+						});
+						scWrapper.mouseout(function(){
+							if(timoutID != 0){clearTimeout(timoutID); timoutID = 0;}
+							timoutID = setTimeout(function(){scrollbar.css('visibility', 'hidden')}, 500);
+						});
+						scrollbar.mousedown(function(){
+							scrollbar.animate({
+								width: 10
+							}, 100);
+						});
+						$("body").mouseup(function(){
+							scrollbar.animate({
+								width: 8
+							}, 100);
+						});
+						if(posBottom == true) content.scrollTop(sHeight);
+						scrollbar.height(sbH).draggable({
+						  axis : 'y',
+						  containment : parent, 
+						  drag: function(e, ui) {
+							scrollbar.css('visibility', 'visible');
+							var scTop = sHeight/height*(ui.position.top);
+							content.scrollTop( scTop );
+						  }
+						});
+						content.scroll(function(){
+							scrollbar.css('visibility', 'visible');
+							scrollbar.css({top: (content.scrollTop()/height*sbH) });
+							if(timoutID != 0){clearTimeout(timoutID); timoutID = 0;}
+							timoutID = setTimeout(function(){scrollbar.css('visibility', 'hidden')}, 500);
+						});
+					}
+				}
+			});
+		</script>
+	</body>
+</html>
